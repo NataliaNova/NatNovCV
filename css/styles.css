@@ -1,0 +1,62 @@
+
+:root {
+    --bg: #121212;
+    --text: #f1f1f1;
+    --accent: #4f46e5;
+  }
+  body {
+    margin: 0;
+    font-family: 'Inter', sans-serif;
+    background: var(--bg);
+    color: var(--text);
+  }
+  header {
+    text-align: center;
+    padding: 2rem;
+    background: #1f1f1f;
+  }
+  header h1 {
+    margin: 0;
+    font-size: 2.5rem;
+  }
+  header p {
+    margin: 0.5rem 0 1rem;
+    font-size: 1.1rem;
+  }
+  .language-switch button {
+    margin: 0 0.5rem;
+    padding: 0.5rem 1rem;
+    background: var(--accent);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  .language-switch button:hover {
+    background: #6366f1;
+  }
+  .content {
+    max-width: 800px;
+    margin: 2rem auto;
+    padding: 1rem;
+  }
+  h2 {
+    border-left: 4px solid var(--accent);
+    padding-left: 0.5rem;
+    margin-bottom: 1rem;
+  }
+  ul {
+    list-style: none;
+    padding-left: 0;
+  }
+  li {
+    margin-bottom: 0.5rem;
+  }
+  a {
+    color: var(--accent);
+    text-decoration: none;
+  }
+  a:hover {
+    text-decoration: underline;
+  }
+  

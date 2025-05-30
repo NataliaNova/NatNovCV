@@ -2,92 +2,180 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>CV Natalia Nova - Frontend Developer</title>
-  <style>
-    body { font-family: 'Arial', sans-serif; background: #f6f6f6; margin: 0; padding: 0; color: #333; }
-    .container { max-width: 960px; margin: auto; background: white; padding: 2rem; box-shadow: 0 0 15px rgba(0,0,0,0.1); }
-    h1 { color: #0a2342; }
-    h2 { color: #1f3b73; border-bottom: 1px solid #ccc; padding-bottom: 0.3rem; }
-    a { color: #1f3b73; text-decoration: none; }
-    a:hover { text-decoration: underline; }
-    ul { padding-left: 1.2rem; }
-    .section { margin-bottom: 2rem; }
-  </style>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Natalia Nova | Frontend Developer</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="css/styles.css" />
 </head>
 <body>
-  <div class="container">
+  <header>
     <h1>Natalia Nova</h1>
-    <p><strong>Ubicación:</strong> Barcelona, España</p>
-    <p><strong>Email:</strong> <a href="mailto:natnov319@gmail.com">natnov319@gmail.com</a></p>
-    <p><strong>Teléfono:</strong> +34 692 849 041</p>
-    <p><strong>GitHub:</strong> <a href="https://github.com/NataliaNova" target="_blank">github.com/NataliaNova</a></p>
-    <p><strong>LinkedIn:</strong> <a href="https://www.linkedin.com/in/nano5524" target="_blank">linkedin.com/in/nano5524</a></p>
+    <p>Frontend Developer | Clean, Modern & Accessible Interfaces</p>
+    <div class="language-switch">
+      <button onclick="switchLanguage('es')">Español</button>
+      <button onclick="switchLanguage('en')">English</button>
+    </div>
+  </header>
+  <div class="content">
+    <div id="es" class="lang">
+      <section>
+        <h2>Sobre mí</h2>
+        <p>Soy desarrolladora web junior con formación en desarrollo full stack, aunque mi enfoque y preferencia está en el área frontend. He estudiado tecnologías como HTML, CSS, JavaScript, ReactJS, Bootstrap y Tailwind, y me apasiona crear interfaces limpias, funcionales y centradas en la experiencia de usuario.
 
-    <div class="section">
-      <h2>Perfil Profesional</h2>
-      <p>Desarrolladora web junior especializada en frontend. Aunque mi formación es full stack, mi enfoque y pasión están en la creación de interfaces limpias, accesibles y funcionales usando HTML, CSS, JavaScript y ReactJS. Me considero una persona metódica, detallista y comprometida con la calidad del código. Busco mi primera oportunidad laboral como Frontend Developer en un entorno donde pueda seguir aprendiendo, aportar valor real y trabajar en equipo.</p>
+          Me considero una persona metódica, detallista y comprometida con la calidad del código. Actualmente busco mi primera oportunidad como Frontend Developer en un equipo donde pueda crecer, aprender y aportar desde el primer día.
+          
+          He realizado un máster en desarrollo Full Stack MERN (Inesdi Business Techschool) y un bootcamp MEAN (BIT Bogotá). Actualmente resido en Barcelona y estoy lista para trabajar en proyectos reales.
+          
+          Mi formación previa como abogada me ha aportado pensamiento crítico, organización y atención al detalle, habilidades que aplico hoy en mi trabajo como desarrolladora frontend.
+          
+          Me encanta aprender nuevas tecnologías y mejorar mis habilidades en el área </p>
+      </section>
+      <section>
+        <h2>Formación</h2>
+        <ul>
+          <li>Full Stack Web Development Master | MERN</li>
+          <li>Full Stack Bootcamp | MEAN </li>
+          <li>Grado Profesional en Derecho</li>
+        </ul>
+      </section>
+      <section>
+        <h2>Idiomas</h2>
+        <ul>
+          <li>Ingles: Intermedio</li>
+          <li>Español: Nativo</li>
+          <li>Catalán: Básico</li>
+        </ul>
+      </section>
+      <section>
+        <h2>Habilidades Técnicas</h2>
+        <ul>
+          <li>HTML, CSS, JavaScript, ReactJS</li>
+          <li>TailwindCSS, Bootstrap, Git & GitHub</li>
+          <li>Responsive Design, UI/UX básico</li>
+        </ul>
+      </section>
+      <section>
+        <h2>Habilidades Blandas</h2>
+        <ul>
+          <li>Communicación & Colaboración</li>
+          <li>Resolución de problemas</li>
+          <li>Atención al Detalle</li>
+        </ul>
+      </section>
+      <section>
+        <h2>Experiencia Laboral</h2>
+        <ul>
+          <li> 
+            <h3>Desarrolladora Frontend |Proyectos personales</h3>
+            <h4>Remoto · Ene 2024 | Presente</h4>
+            <p>Desarrollo de interfaces web con enfoque en frontend utilizando HTML, CSS, JavaScript y ReactJS. Aplicación de buenas prácticas de diseño responsive, control de versiones con Git y despliegue en Vercel.</p>
+          </li>
+          <li> 
+            <h3>Atención al Cliente | Intelcia para Banco Sabadell</h3>
+            <h4>Barcelona · Ago 2024 | Presente</h4>
+            <p>Soporte telefónico y por email. Resolución de incidencias, uso de herramientas digitales.</p>
+          </li><li> 
+            <h3>Ejercicio Profesional | Derecho </h3>
+            <h4>Colombia, 2016 - 2021</h4>
+            <p>Redacción jurídica, atención a clientes, análisis de casos y gestión documental.</p>
+          </li>
+        </ul>
+      </section>
+      <section>
+        <h2>Proyectos</h2>
+        <ul>
+          <li><a href="https://github.com/NataliaNova" target="_blank">GitHub</a></li>
+        </ul>
+      </section>
     </div>
 
-    <div class="section">
-      <h2>Formación</h2>
-      <ul>
-        <li>Máster en Desarrollo Web Full Stack – MERN · Inesdi Business Techschool (España, 2025)</li>
-        <li>Bootcamp Full Stack – MEAN · BIT Bogotá Institute of Technology (Colombia, 2022)</li>
-        <li>Grado Profesional en Derecho · Corporación Universitaria Iberoamericana (Colombia, 2009)</li>
-      </ul>
-    </div>
-
-    <div class="section">
-      <h2>Experiencia Laboral</h2>
-      <ul>
-        <li><strong>Desarrolladora Frontend – Proyectos personales</strong> (Remoto, Ene 2024 – Actualidad)<br>Desarrollo de interfaces web con HTML, CSS, JavaScript y ReactJS. Aplicación de diseño responsive, control de versiones con Git y despliegue en Vercel. Proyectos destacados: clon de landing page de AirPods, portfolio personal.</li>
-        <li><strong>Atención al Cliente – Banco Sabadell</strong> (Barcelona, 2023–2024)<br>Soporte a usuarios por teléfono y email, resolución de incidencias, uso de herramientas digitales.</li>
-        <li><strong>Ejercicio Profesional – Derecho</strong> (Colombia, 2009–2023)<br>Redacción jurídica, atención a clientes, análisis de casos y gestión documental.</li>
-      </ul>
-    </div>
-
-    <div class="section">
-      <h2>Habilidades Técnicas</h2>
-      <ul>
-        <li>HTML5, CSS3, JavaScript</li>
-        <li>ReactJS, Bootstrap, Tailwind</li>
-        <li>Git, GitHub, Vercel</li>
-        <li>Responsive Design, Flexbox, Grid</li>
-        <li>NodeJS, ExpressJS, MongoDB (nivel básico)</li>
-      </ul>
-    </div>
-
-    <div class="section">
-      <h2>Habilidades Blandas</h2>
-      <ul>
-        <li>Comunicación efectiva</li>
-        <li>Trabajo en equipo</li>
-        <li>Responsabilidad y compromiso</li>
-        <li>Atención al detalle</li>
-        <li>Pensamiento crítico</li>
-        <li>Adaptabilidad</li>
-      </ul>
-    </div>
-
-    <div class="section">
-      <h2>Idiomas</h2>
-      <ul>
-        <li>Español: Nativo</li>
-        <li>Inglés: Intermedio (B1)</li>
-        <li>Catalán: Básico</li>
-      </ul>
-    </div>
-
-    <div class="section">
-      <h2>Proyectos</h2>
-      <p>Consulta mis proyectos actualizados en:</p>
-      <ul>
-        <li><a href="https://github.com/NataliaNova" target="_blank">GitHub</a></li>
-        <li><a href="https://www.linkedin.com/in/nano5524" target="_blank">LinkedIn</a></li>
-      </ul>
+    <div id="en" class="lang" style="display:none;">
+      <section>
+        <h2>About Me</h2>
+        <p>I am a junior web developer with training in full stack development, although my main focus and preference is frontend. I have studied technologies like HTML, CSS, JavaScript, ReactJS, Bootstrap, and Tailwind. I'm passionate about creating clean, functional interfaces with a strong user experience focus.
+      
+          I consider myself methodical, detail-oriented, and committed to writing high-quality code. I’m currently seeking my first opportunity as a Frontend Developer in a team where I can grow, learn, and contribute from day one.
+      
+          I completed a Full Stack MERN Master’s Program (Inesdi Business Techschool) and a MEAN Bootcamp (BIT Bogotá). I currently live in Barcelona and I'm ready to work on real-world projects.
+      
+          My previous background as a lawyer provided me with critical thinking, organization, and attention to detail—skills I now apply to my work as a frontend developer.
+      
+          I enjoy learning new technologies and constantly improving my frontend skills.
+        </p>
+      </section>
+      
+      <section>
+        <h2>Education</h2>
+        <ul>
+          <li>Full Stack Web Development Master | MERN</li>
+          <li>Full Stack Bootcamp | MEAN</li>
+          <li>Law Degree</li>
+        </ul>
+      </section>
+      
+      <section>
+        <h2>Languages</h2>
+        <ul>
+          <li>English: Intermediate</li>
+          <li>Spanish: Native</li>
+          <li>Catalan: Basic</li>
+        </ul>
+      </section>
+      
+      <section>
+        <h2>Technical Skills</h2>
+        <ul>
+          <li>HTML, CSS, JavaScript, ReactJS</li>
+          <li>TailwindCSS, Bootstrap, Git & GitHub</li>
+          <li>Responsive Design, Basic UI/UX</li>
+        </ul>
+      </section>
+      
+      <section>
+        <h2>Soft Skills</h2>
+        <ul>
+          <li>Communication & Collaboration</li>
+          <li>Problem Solving</li>
+          <li>Attention to Detail</li>
+        </ul>
+      </section>
+      
+      <section>
+        <h2>Work Experience</h2>
+        <ul>
+          <li> 
+            <h3>Frontend Developer | Personal Projects</h3>
+            <h4>Remote · Jan 2024 | Present</h4>
+            <p>Frontend web interface development using HTML, CSS, JavaScript, and ReactJS. Applied responsive design principles, version control with Git, and deployment on Vercel.</p>
+          </li>
+          <li> 
+            <h3>Customer Service | Intelcia for Banco Sabadell</h3>
+            <h4>Barcelona · Aug 2024 | Present</h4>
+            <p>Phone and email support. Issue resolution and use of digital tools.</p>
+          </li>
+          <li> 
+            <h3>Legal Practice | Lawyer</h3>
+            <h4>Colombia, 2016 - 2021</h4>
+            <p>Legal writing, client service, case analysis, and document management.</p>
+          </li>
+        </ul>
+      </section>
+      
+      <section>
+        <h2>Projects</h2>
+        <ul>
+          <li><a href="https://github.com/NataliaNova" target="_blank">GitHub</a></li>
+        </ul>
+      </section>
     </div>
   </div>
+
+  <script>
+    function switchLanguage(lang) {
+      document.querySelectorAll('.lang').forEach(el => el.style.display = 'none');
+      document.getElementById(lang).style.display = 'block';
+    }
+  </script>
 </body>
 </html>
